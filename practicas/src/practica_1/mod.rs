@@ -1,0 +1,12 @@
+pub mod ejercicio_1;
+pub mod ejercicio_2;
+pub mod ejercicio_3;
+pub mod ejercicio_4;
+pub mod ejercicio_5;
+pub mod ejercicio_6;
+pub mod ejercicio_7;
+pub mod ejercicio_8;
+pub mod ejercicio_9;
+pub mod ejercicio_10;
+pub mod ejercicio_11;
+pub mod ejercicio_12;

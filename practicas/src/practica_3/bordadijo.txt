@@ -1,0 +1,11 @@
+Buen día! Una consulta...
+Si tengo una struct con un Vec<Mascota> (por ejemplo) y un ejercicio pide crear una función que busque y
+devuelva la mascota...
+¿Qué es lo más correcto? ¿Devolver &Mascota? ¿Devolver un &Mascota.clone() para que sea Mascota?
+¿O hay otras alternativas?
+
+O, mejor formulada la pregunta: ¿Es importante que devuelva el elemento con adueñamiento o es
+correcto devolver un préstamo del elemento que se busca?
+
+Borda dijo: Hola! En la mayoría de los casos prestas el dato, salvo caso muy particular das una copia
+del mismo
